@@ -54,7 +54,7 @@ function handleConversation(message) {
       showOptions(days, (day) => {
         appendMessage('bot', `Dia ${day} escolhido. Agora, escolha um horário:`);
         step = 2;
-        handleConversation(); // prossegue sem texto
+        handleConversation(); 
       });
       step = 1;
       break;
@@ -64,7 +64,7 @@ function handleConversation(message) {
       showOptions(horarios, (horario) => {
         appendMessage('bot', `Horário ${horario} escolhido. Agora, selecione o serviço:`);
         step = 3;
-        handleConversation(); // prossegue sem texto
+        handleConversation(); 
       });
       break;
 
@@ -83,7 +83,7 @@ function handleConversation(message) {
   }
 }
 
-// Mensagem inicial
+
 window.onload = () => {
   chatbotContainer.style.display = 'flex';
   appendMessage('bot', 'Qual é o seu nome?');
