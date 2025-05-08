@@ -1,0 +1,38 @@
+Definição do objetivo do sistema (visão de produto):
+
+
+O SAB(Sistemas de agendamentos para barbearias) tem como objetivo 
+fornecer uma plataforma digital e eficiente para gerenciamento de 
+horários e atendimentos. 
+
+Voltado para clientes e profissionais da área, o sistema 
+permite a realização de agendamentos online a qualquer 
+hora e de qualquer lugar, é construído para plataforma web 
+assim temos portabilidade para dispositivos como smartphones, 
+tablets ou computadores, reduzindo a necessidade de contato 
+presencial ou telefônico com o profissional barbeiro.
+
+A aplicação facilita o controle da agenda da barbearia, permitindo 
+a visualização dos horários disponíveis, o cadastro 
+de serviços oferecidos, e a personalização da disponibilidade de 
+cada profissional. Além disso, proporciona ao cliente a autonomia 
+de agendar de forma simples e rápida, melhorando a fluidez do 
+atendimento e a gestão do tempo.
+
+O sistema busca modernizar o processo de agendamento, 
+reduzir conflitos de horário e contribuir para um ambiente de 
+trabalho mais organizado e profissional.
+
+
+O propósito: Aprimorar a gestão de atendimentos em barbearias.
+
+O público-alvo: Profissionais da área de barbearia.
+
+Os benefícios: autonomia, praticidade, organização, portabilidade 
+e redução de conflitos de horário.
+
+
+
+
+
+Alunos: Erick Felipe, Lucas Mangabeira.

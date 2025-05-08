@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Agenda</title>
+  <link rel="stylesheet" href="https://unpkg.com/lucide@latest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <header>
+    <div class="logo">MinhaLogo</div>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar...">
+    </div>
+  </header>
+
+  <!-- Barra lateral vertical -->
+  <div class="sidebar">
+    <button title="Agenda"><i class="lucide" data-lucide="calendar"></i></button>
+    <button title="Cadastro"><i class="lucide" data-lucide="user-plus"></i></button>
+    <button title="Configurações"><i class="lucide" data-lucide="settings"></i></button>
+  </div>
+
+  <!-- Barra horizontal de filtros -->
+  <div class="toolbar">
+    <input type="text" placeholder="Buscar item...">
+    <select>
+      <option value="">Filtro</option>
+      <option value="opcao1">Opção 1</option>
+      <option value="opcao2">Opção 2</option>
+    </select>
+  </div>
+
+  <!-- Conteúdo principal com divs de dados -->
+  <main id="agenda">
+    <!-- Preenchido via script -->
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

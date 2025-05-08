@@ -1,0 +1,16 @@
+Parte do cliente:
+
+O objetivo é simular um atendimento automatizado para agendamentos, exibido no canto inferior direito da tela. O chat é iniciado automaticamente ao carregar a página com a pergunta "Qual é o seu nome?". A partir da resposta do usuário, o sistema conduz uma sequência fixa de interações: pergunta pela data (com opções de 1 a 31), pelo horário (entre 18h e 21h, com intervalos de 30 minutos) e, por fim, pelo serviço desejado (entre seis opções: Corte, Sobrancelha, Barba, Corte + Sobrancelha, Corte + Barba e Corte + Sobrancelha + Barba). O nome informado pelo usuário é reutilizado nas respostas subsequentes, personalizando o atendimento. O fluxo de conversação é controlado por uma variável de etapa (step) no JavaScript, que define qual pergunta será feita a seguir.
+
+Parte do profissional:
+
+Este código implementa uma interface de sistema web responsiva composta por três áreas principais: uma barra lateral vertical fixa à esquerda, uma barra superior horizontal e uma segunda barra horizontal inferior, todas posicionadas de forma que não se sobreponham e mantendo um layout fixo. A barra lateral vertical contem três botões representados apenas por ícones referentes a agenda, cadastro e configurações. A barra superior tem um espaço reservado para uma logo representada por texto e, ao centro, uma barra de pesquisa. Logo abaixo dela, e alinhada ao lado direito da barra vertical, há uma barra de ferramentas com 40px de altura e 100% da largura restante. Essa barra contém um campo 
+de busca e um seletor de filtro, sem interferir na posição da barra lateral.
+
+A área principal da página é dedicada ao conteúdo dinâmico, onde são geradas diversas divs representando registros de agendamento. Cada div exibe informações como nome, data, horário e serviço.  Os serviços são variados entre opções como corte, barba e combinações desses. O estilo visual é construído com CSS externo, uso de fontes monoespaçadas para alinhamento dos campos, e rolagem vertical disponível apenas no conteúdo principal, mantendo as barras fixas sempre visíveis para o usuário. O layout também utiliza ícones da biblioteca Lucide para representar os botões na barra lateral.
+
+
+
+
+
+Alunos: Erick Felipe, Lucas Mangabeira.
